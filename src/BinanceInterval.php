@@ -8,7 +8,7 @@ use InvalidArgumentException;
  *
  * PHP Version 8.1.4
  *
- * @package  AG
+ * @package  alangustavo/binance-backtest
  * @author   Alan Gustavo <alan.gustavo@gmail.com>
  * @license  http://opensource.org/licenses/gpl-license.php GNU Public License
  */
