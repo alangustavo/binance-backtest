@@ -1,0 +1,21 @@
+{
+    "name": "alangustavo/binance-backtest",
+    "description": "PHP Binance Backtest",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alangustavo\\BinanceBacktest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alan Gustavo",
+            "email": "alan.gustavo@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
