@@ -21,9 +21,9 @@ class BinanceDateTimeTest extends TestCase
     public function testCompareTwoDateTimesBinance()
     {
         $bdt = new BinanceDateTime("2021-01-01 00:00:00");
-        $b = new BinanceDateTime("2021-01-01 00:00:01");
-        $c = new BinanceDateTime("2020-12-31 23:59:00");
-        $d = new BinanceDateTime("2021-01-01 00:00:00");
+        $b   = new BinanceDateTime("2021-01-01 00:00:01");
+        $c   = new BinanceDateTime("2020-12-31 23:59:00");
+        $d   = new BinanceDateTime("2021-01-01 00:00:00");
 
         $this->assertTrue($bdt->lessThan($b));
         $this->assertTrue($b->greatThan($bdt));
